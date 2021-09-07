@@ -1,0 +1,157 @@
+/* 
+rose quartz #F7CAC9
+purple #d2a6ff
+serenity  #B3CEE5
+*/
+
+
+/* Style the top navigation bar */
+
+body {
+  background-image: url('bg2.jpg');
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 700;
+
+}
+
+
+p{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
+}
+.mainNav {
+  overflow: hidden;
+  background-color: #B3CEE5;
+}
+
+/* Style the topnav links */
+.mainNav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.mainNav a:hover {
+  background-color: #FFFFFF;
+  color: #F7CAC9;
+}
+
+#aboutMe-section{
+  background-color: #d2e8fa;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+#project-section {
+  background-color: #d2e8fa;
+
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+.profile-image {
+  border-radius: 8px;
+  display: block;
+  height: 475px;
+  width: 550px;
+   margin-left: 250px;
+  margin-right: 200px;
+ 
+}
+
+.project-image
+{
+  display: block;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+#other-section {
+    background-color: #d2e8fa;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#hobby-section {
+    background-color: #d2e8fa;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+#other-section h2{
+  color: rgb(65, 99, 98);
+}
+
+
+.column {
+  padding: 15px;
+  flex-direction: row;
+  background-color: #F7CAC9;
+  border: 5px solid #F7CAC9;
+}
+
+.column:hover {
+  background-color: rgb(255, 223, 222);
+  border: 5px solid #F7CAC9;
+}
+.column:hover a {
+  color: var(--secondaryText);
+}
+
+.column p {
+  font-size: 14px;
+  color: var(--headerText);
+}
+
+.writing {
+  padding: 15px;
+  flex-direction: row;
+  background-color: var(--secondaryColor);
+}
+
+.writing p {
+  font-size: 14px;
+  color: var(--headerText);
+}
+
+
+
